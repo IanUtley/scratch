@@ -5,7 +5,7 @@ on:
       - main
 
 jobs:
-  check_1:
+  not_broken:
     name: "Tests work"
     runs-on: ubuntu-latest
     steps:
