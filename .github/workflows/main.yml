@@ -1,4 +1,4 @@
-name: Merge-Checks
+name: Main-Checks
 on:
   push:
     branches:
@@ -6,10 +6,8 @@ on:
 
 jobs:
   check_1:
-    name: "Check 1"
+    name: "Tests work"
     runs-on: ubuntu-latest
     steps:
-      - name: Step 1
+      - name: Running tests
         run: echo Hello World!
-      - name: Force fail
-        run: exit 1
