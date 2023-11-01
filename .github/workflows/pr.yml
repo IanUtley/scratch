@@ -6,7 +6,7 @@ on:
 
 jobs:
   pr_check_1:
-    name: "Stuff"
+    name: "Tests work"
     runs-on: ubuntu-latest
     steps:
       - name: Step 1
