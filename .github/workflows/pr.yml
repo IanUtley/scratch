@@ -1,13 +1,14 @@
-name: Main-Checks
+
+name: PR-Checks
 on:
-  push:
+  pull_request:
     branches:
       - main
 
 jobs:
-  check_1:
-    name: "Tests work"
+  pr_check_1:
+    name: "Stuff"
     runs-on: ubuntu-latest
     steps:
-      - name: Running tests
+      - name: Step 1
         run: echo Hello World!
